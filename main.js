@@ -11,8 +11,9 @@ function createWindow () {
     width: 1100,
     height: 800,
     backgroundColor: '#002b36',
-    frame: false
+    frame: true
   })
+mainWindow.setResizable(false)
 mainWindow.setMenu(null);
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
