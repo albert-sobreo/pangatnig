@@ -87,7 +87,7 @@
       });
       
       score = itemCount - wrong.length;
-      $scoreEl.text("Nakuha mong tamang sagot ay "+score).addClass('new-score');
+      $scoreEl.text("Ang nakuha mo na tamang sagot ay "+score).addClass('new-score');
       $('html,body').animate({scrollTop: 0}, 50);
     }
  
